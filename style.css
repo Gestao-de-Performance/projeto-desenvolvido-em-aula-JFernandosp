@@ -1,0 +1,55 @@
+:root{
+    --cor-busca: #5913b441;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 100%;
+}
+nav{
+    padding: 1%;
+}
+.displayFlex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gapCabecalho{
+    gap: 20%;
+}
+.gapCabecalhoBotoes{
+    gap: 15%;
+}
+.bordaBusca{
+    border: 1px solid var(--cor-busca);
+    padding: 5% 10%;
+    gap: 3rem;
+}
+.inputBusca{
+    border: none;
+    outline: none;
+    color: #5913b488;
+}
+.inputBusca::placeholder{
+    color: var(--cor-busca);
+}
+.botaoBusca{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+/*remove estilo da tag A*/
+.removeDecoretion{
+    text-decoration: none;
+}
+/*remove quebra de linha*/
+.quebraDeLinha{
+    white-space: nowrap;
+}
+.displayFlexAV{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
